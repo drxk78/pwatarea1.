@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de Caja con Slider</title>
+    <style>
+        body {
+            background-color: #eef5ff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .caja {
+            background-color: #70006b;
+            border: 4px solid #01621b;
+            border-radius: 15px;
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgb(248, 2, 150);
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #ff0c0c;
+            margin-bottom: 20px;
+        }
+        input[type="range"] {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caja">
+        <h2>SEÑALE EL NIVEL DE SEGURIDAD</h2>
+        <input type="range" min="0" max="100" value="50">
+    </div>
+
+</body>
+</html>
